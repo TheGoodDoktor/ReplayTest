@@ -8,8 +8,9 @@ public class ReplayTest : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "PhysXVehicles", "HeadMountedDisplay" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "PhysXVehicles", "HeadMountedDisplay", "InMemoryNetworkReplayStreaming" });
 
-		Definitions.Add("HMD_MODULE_INCLUDED=1");
+
+        Definitions.Add("HMD_MODULE_INCLUDED=1");
 	}
 }
